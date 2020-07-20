@@ -7,7 +7,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.training.coroutinekton"
+        applicationId "com.training.coroutinektor"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

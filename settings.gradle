@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "CoroutineKton"
+rootProject.name = "coroutine-and-ktor"

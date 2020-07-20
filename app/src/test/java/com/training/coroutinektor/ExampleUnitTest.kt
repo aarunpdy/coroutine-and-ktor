@@ -1,4 +1,4 @@
-package com.training.coroutinekton
+package com.training.coroutinektor
 
 import org.junit.Test
 
