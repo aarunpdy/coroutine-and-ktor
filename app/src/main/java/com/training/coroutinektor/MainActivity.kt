@@ -3,6 +3,8 @@ package com.training.coroutinektor
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.training.coroutinektor.databinding.ActivityMainBinding
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(viewBinder.root)
 
         viewBinder.coroutineLaunch.setOnClickListener {
-
         }
     }
 
