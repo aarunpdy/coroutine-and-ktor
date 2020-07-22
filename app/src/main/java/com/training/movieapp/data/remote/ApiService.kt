@@ -5,8 +5,6 @@ import io.ktor.client.HttpClient
 import io.ktor.client.features.json.GsonSerializer
 import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.request.get
-import io.ktor.client.request.header
-import io.ktor.client.response.HttpResponse
 
 object ApiService {
 
