@@ -6,6 +6,7 @@ import kotlinx.coroutines.runBlocking
 
 // Run block example
 fun main() = runBlocking {
+
     val deferred = (1..1_000).map { number ->
         GlobalScope.async {
             number

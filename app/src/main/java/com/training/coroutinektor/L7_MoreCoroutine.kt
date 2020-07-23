@@ -6,9 +6,10 @@ import kotlinx.coroutines.runBlocking
 
 // Many number of coroutine
 fun main() = runBlocking {
+
     repeat(100_000) {
         launch {
-            delay(5000L)
+            delay(1000L)
             print(".")
         }
     }

@@ -1,11 +1,8 @@
 package com.training.coroutinektor
 
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.*
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
-import kotlin.coroutines.Continuation
-import kotlin.coroutines.resume
-import kotlin.coroutines.suspendCoroutine
+import kotlin.coroutines.*
 
 var continuation: Continuation<Int>? = null
 
@@ -16,7 +13,7 @@ fun main() = runBlocking {
         println("Result is $a")
     }
     10.downTo(0).forEach {
-        println("it is $it")
+        println("for loop it is $it")
         continuation!!.resume(it)
     }
 }
